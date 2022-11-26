@@ -1,31 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.ttf) format('truetype');
     font-weight: normal;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-Thin.ttf) format('truetype');
-    font-weight: thin;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-ThinItalic.ttf) format('truetype');
-    font-wight: ThinItalic
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
-    font-weight: lightItalic;
-}
-
-@font-face {
-    font-family: 'Roboto';
-    src: url(fonts/Roboto-Italic.ttf) format('truetype');
-    font-weight: italic;
 }
 
 @font-face {
@@ -87,6 +64,9 @@ main {
 footer {
     display: flex;
     justify-content: center;
+    padding: 30px;
+    color: #e5e7eb;
+    font-weight: normal;
 }
 
 .quote {
