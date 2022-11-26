@@ -1,4 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf) format('truetype');
+    font: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
+    font: light-italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Italic.ttf) format('truetype');
+    font: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Bold.ttf) format('truetype');
+    font: bold;
+}
+
+
 
 * {
     font-family: 'Roboto', sans-serif;
