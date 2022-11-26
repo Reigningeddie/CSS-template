@@ -28,6 +28,11 @@ button {
     background-color: #3882f6;
 }
 
+.img {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
 .call-to {
     background-color: #3882f6;
 }
