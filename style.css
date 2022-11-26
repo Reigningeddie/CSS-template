@@ -50,6 +50,22 @@ nav {
     background-color: #1f2937;
 }
 
+.main {
+    justify-content: center;
+    padding: 0 220px 120px 185px;
+}
+
+.left {
+    border: 1px solid #555;
+    padding-right: 50px;
+}
+
+.right {
+    border: 1px solid #555;
+
+}
+
+
 main {
     font-size: 48px;
     font-weight: bolder;
