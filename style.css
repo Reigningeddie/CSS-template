@@ -1,25 +1,37 @@
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Regular.ttf) format('truetype');
-    font: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Thin.ttf) format('truetype');
+    font-weight: thin;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-ThinItalic.ttf) format('truetype');
+    font-wight: ThinItalic
 }
 
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-LightItalic.ttf) format('truetype');
-    font: light-italic;
+    font-weight: lightItalic;
 }
 
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Italic.ttf) format('truetype');
-    font: italic;
+    font-weight: italic;
 }
 
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-Bold.ttf) format('truetype');
-    font: bold;
+    font-weight: bold;
 }
 
 
@@ -44,12 +56,13 @@ nav {
 }
 .links li {
     padding-right: 35px;
+    font-weight: thin;
 }
 
 #logo {
     font-size: 24px;
     color: #f9faf8;
-    font-style: extra-bold;
+    font-weight: bold;
     padding-right: 75vh;
 }
 
@@ -59,7 +72,7 @@ nav {
 
 main {
     font-size: 48px;
-    font-style: extra-bold;
+    font-weight: bolder;
 }
 
 .hero {
