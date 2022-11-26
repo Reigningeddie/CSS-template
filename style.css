@@ -56,10 +56,10 @@ nav {
 }
 .links li {
     padding-right: 35px;
-    font-weight: thin;
+    font-weight: normal;
 }
 
-#logo {
+.logo {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
