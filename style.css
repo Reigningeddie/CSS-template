@@ -10,6 +10,25 @@
     background-color: #1f2937;
 }
 
+main {
+    font-size: 48px;
+    font-style: extra-bold;
+}
+
+.hero {
+    color: #f9faf8;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
