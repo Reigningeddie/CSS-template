@@ -6,6 +6,23 @@
     margin: 0px;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-style: extra-bold;
+    
+}
+
 .hero, footer {
     background-color: #1f2937;
 }
