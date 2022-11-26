@@ -56,13 +56,26 @@ nav {
 }
 
 .left {
-    border: 1px solid #555;
+
     padding-right: 50px;
 }
 
 .right {
     border: 1px solid #555;
+}
 
+.hero-sub {
+    padding-bottom: 15px;
+}
+
+.btn-one {
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    color: #f9faf8;
+    font-size: larger;
+    font-weight: bold;
+    border: none;
 }
 
 
