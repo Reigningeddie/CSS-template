@@ -1,1 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+}
+
+.hero, footer {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.thor {
+    font-weight: bold;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.call-to {
+    background-color: #3882f6;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
