@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'Roboto';
     src: url(fonts/Roboto-LightItalic.ttf) format('trutype');
-    font-weight: lightItalic;
+    font-style: italic;
 }
 
 @font-face {
@@ -117,12 +117,6 @@ main {
     padding-bottom: 100px;
 }
 
-.quote {
-    justify-content: center;
-    font-style: lightItalic;
-    padding: 100px 150px 100px 150px;
-}
-
 footer {
     display: flex;
     justify-content: center;
@@ -134,15 +128,20 @@ footer {
 .quote {
     background-color: #e5e7eb;
     color: #1f2937;
+    justify-content: center;
+    padding: 150px 350px 150px 350px;
+    font-style: italic;
+    font-weight: light;
 }
 
 .quote-text {
-    font-weight: lightItalic;
     font-size: 36px;
 }
 
 .thor {
     font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
 }
 
 button {
