@@ -93,6 +93,26 @@ main {
     color: #e5e7eb;
 }
 
+.info {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+    justify-content: center;
+    color: #1f2937;
+    padding: 40px 0 40px 0;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    margin: auto;
+}
+
+.center {
+    justify-content: center;
+}
+
 footer {
     display: flex;
     justify-content: center;
