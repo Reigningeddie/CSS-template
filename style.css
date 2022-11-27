@@ -43,7 +43,7 @@ nav {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    padding-right: 75vh;
+    padding-right: 105vh;
 }
 
 .hero, footer {
@@ -113,7 +113,8 @@ main {
 .center {
     text-align: center;
     margin-right: 40px;
-    width: fit-content;
+    
+    width: 150px;
     padding-bottom: 100px;
 }
 
@@ -123,6 +124,7 @@ footer {
     padding: 40px;
     color: #e5e7eb;
     font-weight: normal;
+    font-size: large;
 }
 
 .quote {
@@ -130,19 +132,19 @@ footer {
     color: #1f2937;
     justify-content: center;
     padding: 125px 300px 125px 300px;
-    font-style: italic;
-    font-weight: light;
+    font-weight: Thin;
 }
 
 .quote-text {
     font-size: 36px;
+    font-style: italic;
 }
 
 .thor {
     font-weight: bold;
     text-align: right;
     padding-right: 20px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 button {
@@ -161,7 +163,7 @@ button {
     color: #f9faf8;
     font-size: 18px;
     background-color: #3882f6;
-    margin: 125px 150px 125px 150px;
+    margin: 100px 150px 100px 150px;
     height: 150px;
     width: 1050px;
     border-radius: 5px;
