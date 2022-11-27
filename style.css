@@ -43,7 +43,7 @@ nav {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
-    padding-right: 105vh;
+    padding-right: 90vh;
 }
 
 .hero, footer {
@@ -152,7 +152,7 @@ button {
 }
 
 .img {
-    border: 5px solid #3882f6;
+    border: 3px solid #3882f6;
     border-radius: 15px;
 }
 
@@ -165,7 +165,7 @@ button {
     background-color: #3882f6;
     margin: 100px 150px 100px 150px;
     height: 150px;
-    width: 1050px;
+    width: 1000px;
     border-radius: 5px;
 }
 
@@ -185,6 +185,11 @@ button {
 .bold {
     font-weight: bold;
     font-size: 24px;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
 }
 
 
