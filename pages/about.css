@@ -53,30 +53,8 @@ nav {
 
 .main {
   justify-content: center;
-  padding: 0 220px 120px 185px;
-}
-
-.left {
-
-  padding-right: 70px;
-}
-
-.right {
-  border: 1px solid #555;
-}
-
-.hero-sub {
-  padding-bottom: 15px;
-}
-
-.btn-one {
-  border-radius: 10px;
-  height: 35px;
-  width: 140px;
-  color: #f9faf8;
-  font-size: larger;
-  font-weight: bold;
-  border: none;
+  text-align: center;
+  padding: 0 200px 100px 185px;
 }
 
 
@@ -130,9 +108,12 @@ button {
 
 .design {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background: #f9faf8;
+}
+.container {
+  padding-right: 50px;
 }
 
 section .card .image {
