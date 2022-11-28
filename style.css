@@ -57,7 +57,7 @@ nav {
 
 .left {
 
-    padding-right: 50px;
+    padding-right: 70px;
 }
 
 .right {
@@ -70,8 +70,8 @@ nav {
 
 .btn-one {
     border-radius: 10px;
-    height: 40px;
-    width: 150px;
+    height: 35px;
+    width: 140px;
     color: #f9faf8;
     font-size: larger;
     font-weight: bold;
