@@ -94,14 +94,6 @@ main {
   color: #e5e7eb;
 }
 
-.info {
-  height: 25vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f9faf8;
-}
-
 
 footer {
   display: flex;
@@ -136,6 +128,13 @@ button {
   background-color: #3882f6;
 }
 
+.design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9faf8;
+}
+
 section .card .image {
   height: 140px;
   width: 140px;
@@ -153,7 +152,45 @@ section .card .image img{
 }
 
 .card {
+  position: relative;
   background: #fff;
   border-radius: 20px;
+  margin: 20px 0;
+  width: 280px;
 }
 
+.card::before {
+  content: "";
+  position: absolute;
+  height: 55%;
+  width: 100%;
+  background: #3882f6;
+  border-radius: 20px 20px 0 0;
+}
+
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  position: relative;
+  z-index: 100;
+}
+
+.card .about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  color: #1f2937;
+}
+
+.about .name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.designers {
+  display: flex;
+  justify-content: center;
+}
