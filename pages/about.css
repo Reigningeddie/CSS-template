@@ -20,6 +20,7 @@
   font-family: 'Roboto', sans-serif;
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 nav {
@@ -94,12 +95,11 @@ main {
 }
 
 .info {
+  height: 25vh;
   display: flex;
-  font-size: 36px;
-  font-weight: bold;
+  align-items: center;
   justify-content: center;
-  color: #1f2937;
-  padding: 40px 0 40px 0;
+  background: #f9faf8;
 }
 
 
@@ -136,4 +136,24 @@ button {
   background-color: #3882f6;
 }
 
+section .card .image {
+  height: 140px;
+  width: 140px;
+  border-radius: 50%;
+  padding: 3px;
+  background: #3882f6;
+}
+
+section .card .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+}
 
