@@ -35,6 +35,11 @@ nav {
   display: flex;
   justify-content: space-between;
 }
+
+a:visited {
+  color: #f9faf8;
+}
+
 .links li {
   padding-right: 35px;
   font-weight: normal;
@@ -54,7 +59,7 @@ nav {
 .main {
   justify-content: center;
   text-align: center;
-  padding: 0 200px 100px 185px;
+  padding: 0 220px 100px 185px;
 }
 
 
@@ -100,10 +105,6 @@ footer {
   text-align: right;
   padding-right: 20px;
   font-size: 24px;
-}
-
-button {
-  background-color: #3882f6;
 }
 
 .design {

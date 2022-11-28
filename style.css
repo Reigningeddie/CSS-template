@@ -34,6 +34,10 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+a:visited {
+    color: #f9faf8;
+}
 .links li {
     padding-right: 35px;
     font-weight: normal;
