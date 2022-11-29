@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Regular.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-LightItalic.ttf) format('trutype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Bold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 120px;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a:visited {
+  color: #f9faf8;
+}
+
+.links li {
+  padding-right: 35px;
+  font-weight: normal;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  padding-right: 90vh;
+}
+
+.hero, footer {
+  background-color: #1f2937;
+}
+
+.main {
+  justify-content: center;
+  text-align: center;
+  padding: 0 220px 100px 185px;
+}
+
+
+main {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.hero {
+  color: #f9faf8;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  color: #e5e7eb;
+  font-weight: normal;
+  font-size: large;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  justify-content: center;
+  padding: 125px 300px 125px 300px;
+  font-weight: Thin;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+}
+
+.thor {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 24px;
+}
+
