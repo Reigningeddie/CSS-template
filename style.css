@@ -29,6 +29,7 @@ nav {
     padding-bottom: 120px;
 }
 
+
 .links {
     list-style-type: none;
     display: flex;
@@ -62,6 +63,8 @@ a:visited {
 
 .pic {
     display: flex;
+    padding-left: 80px;
+    padding-right: 50px;
 }
 
 .left {
