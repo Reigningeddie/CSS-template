@@ -116,16 +116,18 @@ main {
 
 .pictures {
     display: flex;
-    justify-content: space-between;
+    flex: column;
+    margin-right: 40px;
     max-width: 50%;
     padding-left: 19px;
     margin: auto;
 }
 
 .center {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     margin-right: 40px;
-    
     width: 150px;
     padding-bottom: 100px;
 }
@@ -166,6 +168,11 @@ button {
 .img {
     border: 3px solid #3882f6;
     border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 40px;
+    width: 150px;
 }
 
 .call-to {
